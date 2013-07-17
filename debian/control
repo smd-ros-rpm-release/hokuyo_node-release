@@ -1,0 +1,12 @@
+Source: ros-hydro-hokuyo-node
+Section: misc
+Priority: extra
+Maintainer: "Chad Rockey <chadrockey@gmail.com>"
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-diagnostic-updater, ros-hydro-driver-base, ros-hydro-dynamic-reconfigure, ros-hydro-rosconsole, ros-hydro-roscpp, ros-hydro-self-test, ros-hydro-sensor-msgs
+Homepage: http://www.ros.org/wiki/hokuyo_node
+Standards-Version: 3.9.2
+
+Package: ros-hydro-hokuyo-node
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-diagnostic-updater, ros-hydro-driver-base, ros-hydro-dynamic-reconfigure, ros-hydro-rosconsole, ros-hydro-roscpp, ros-hydro-self-test, ros-hydro-sensor-msgs
+Description: A ROS node to provide access to SCIP 2.0-compliant Hokuyo laser range finders (including 04LX).
