@@ -1,3 +1,22 @@
+## hokuyo_node (indigo) - 1.7.8-1
+
+The packages in the `hokuyo_node` repository were released into the `indigo` distro by running `/usr/bin/bloom-release hokuyo_node -t indigo -r indigo` on `Mon, 16 Jun 2014 21:31:18 -0000`
+
+The `hokuyo_node` package was released.
+
+Version of package(s) in repository `hokuyo_node`:
+- rosdistro version: `1.7.8-0`
+- old version: `1.7.8-0`
+- new version: `1.7.8-1`
+
+Versions of tools used:
+- bloom version: `0.5.10`
+- catkin_pkg version: `0.2.2`
+- rosdep version: `0.10.25`
+- rosdistro version: `0.3.0`
+- vcstools version: `0.1.33`
+
+
 ## hokuyo_node (hydro) - 1.7.8-1
 
 The packages in the `hokuyo_node` repository were released into the `hydro` distro by running `/usr/bin/bloom-release hokuyo_node -t hydro -r hydro` on `Mon, 16 Jun 2014 21:28:47 -0000`
